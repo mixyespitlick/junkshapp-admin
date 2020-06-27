@@ -18,17 +18,17 @@ import UpdateUser from "./components/user/UpdateUser";
 
 class App extends Component {
 
-  render() {
-    return (
-      <div>
-        <Content />
-        {/* <Route exact path="/" component={Content} />
-        <Route exact path="/login" component={LogIn} />
-        <Route exact path="/forgot" component={ForgotPassword} />
-        <Route path="*" component={NotFound} /> */}
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div>
+				<Content />
+				{/* <Route exact path="/" component={Content} />
+				<Route exact path="/login" component={LogIn} />
+				<Route exact path="/forgot" component={ForgotPassword} />
+				<Route path="*" component={NotFound} /> */}
+			</div>
+		);
+	}
 }
 
 export default App;
